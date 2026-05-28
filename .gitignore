@@ -1,0 +1,26 @@
+cat > .gitignore <<EOF
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+.DS_Store
+
+# ML Models
+*.keras
+*.h5
+*.pth
+*.pt
+
+# Dataset
+dataset/
+data/
+datasets/
+EOF
