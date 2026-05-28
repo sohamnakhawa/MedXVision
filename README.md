@@ -80,7 +80,4 @@ Then place generated models in `backend/app/model_store/`.
 - Set `VITE_API_URL` to deployed backend URL
 - Store `SECRET_KEY` in environment variables
 
-## Important Notes
-- Current training script is a complete scaffold with TODOs for your local 5GB dataset pipeline.
-- API currently uses fallback predictions if trained models are absent.
-- Add medically validated thresholding and external evaluation before clinical use.
+
